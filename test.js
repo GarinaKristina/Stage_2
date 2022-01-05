@@ -15,3 +15,18 @@ it('действие умножение 2*3=6', () => {
   assert.equal(Calc.multiply(2, 3), 6);
 });
 });
+
+describe("add", () => {
+it('действие сложение 2+2=4', () => {
+
+expect(Calc.add(2, 2)).to.deep.equal(4);
+});
+});
+
+
+describe("add", () => {
+it('действие сложение 2+2=4', () => {
+
+expect(add(2, 2)).to.deep.equal(4);
+});
+});
